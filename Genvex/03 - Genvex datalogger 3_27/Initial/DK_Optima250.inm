@@ -1,0 +1,178 @@
+[Graf initalisering varmepumpe]************
+70
+-30
+100
+0
+Indblæs T1
+Indblæsning T1 (Akse 1)
+1000
+1
+1
+Rum T2
+Rumtemperatur T2 (Akse 1)
+1000
+1
+1
+Friskluft T3
+Friskluft T3 (Akse 1)
+1000
+1
+1
+Afkast T4
+Afkast T4 (Akse 1)
+1000
+1
+1
+- T5
+- T5 (Akse 1)
+1000
+1
+1
+- T6
+- T6 (Akse 1)
+1000
+1
+1
+Udsugning T7
+Udsugning T7 (Akse 1)
+1000
+1
+1
+Vandfrost T8
+Vandfrost T8 (Akse 1)
+1000
+1
+1
+- T9
+- T9 (Akse 1)
+1000
+1
+1
+Indblæs
+Indblæs ventilator (Akse 2)
+100
+0
+2
+Udsug
+Udsug ventilator (Akse 2)
+100
+0
+2
+Bypass
+Bypass ventil (Akse 2)
+100
+0
+2
+Varmtvand
+Varmtvand ventil (Akse 2)
+100
+0
+2
+-
+- (Akse 2)
+100
+0
+2
+-
+- (Akse 2)
+100
+0
+2
+Graf Dig
+Graf Digital
+
+
+
+
+Vandfrost
+-
+Hygrostat
+Reset Filter
+-
+-
+-
+-
+Drift
+El-eftervarme
+Ekstra køl
+-
+[Varmepumpe setpunkter]***************
+Varmeveksler - normale setpunkter i styringen
+1 Sprog valg
+2 Rumtemperatur
+-
+-
+-
+-
+34 Bypass Max
+-
+-
+-
+-
+-
+-
+3 Filterskift (Mdr)
+4 Stop ON-OFF
+-
+5 Forceret ON
+6 Antal timer
+-
+7 Rum/ind/uds
+8 Trin 1 indblæs
+9 Trin 2 indblæs
+10 Trin 3 indblæs
+11 Trin 1 udsugn
+12 Trin 2 udsugn
+13 Trin 3 udsugn
+14 UR funktion ON
+26 Forvarme ON
+27 Forvarme temp
+28 Vandfrost ON
+29 Vandfrost set
+30 T2 justering
+32 Vand reg sek
+33 Varme reg min
+-
+-
+-
+-
+-
+35 R9 funktion
+Ikke i brug
+T5
+T6
+[User mode model fil *.inu]************************************
+DK_user.inu
+[NR1. Model Tjek. 255=OFF. NR2. EEPadresse. NR3. Advarsel besked]***************
+255
+1
+Advarsel!
+[Initalisering til nye Grafer menu]************************************
+27
+Hastighed valg (Off, Trin 1, 2, 3, 4);62;0;4;0;0;2
+Kalender ON (on/off);60;0;1;0;0;2
+01) Temperatur (°C);12;0;200;100;1;2
+02) Forvarme (on/off);72;0;1;0;0;2
+03) Eftervarme (on/off);100;0;1;0;0;2
+04) Timer trin 3-4 (on/off);42;0;1;0;0;2
+05) Filterskift (mdr);34;0;6;0;0;2
+10) Trin 1 indblæs (%);48;0;100;0;0;2
+11) Trin 2 indbæls (%);50;0;100;0;0;2
+12) Trin 3 indbæls (%);52;0;100;0;0;2
+13) Trin 1 udsug (%);54;0;100;0;0;2
+14) Trin 2 udsug (%);56;0;100;0;0;2
+15) Trin 3 udsug (%);58;0;100;0;0;2
+16) T2 justering (°C);80;0;50;-50;1;2
+17) Timer trin 3-4 (timer);40;1;9;0;0;2
+18) Filterskift autostop (on/off);36;0;1;0;0;2
+19) Regform (0=Rum,1=indbl, 2=udsug);46;0;2;0;0;2
+20) Forvarme temperatur (°C);74;0;150;-150;1;2
+21) Bypass max (°C);20;20;100;0;1;2
+22) Regulator vand interval (sek);82;1;250;0;0;2
+23) Regulator el interval (min);84;1;30;0;0;2
+24) Frostreduktion (°C);24;0;100;0;1;2
+25) Vandfrost (on/off);76;0;1;0;0;2
+26) Vandfrost setpunkt (°C);78;0;100;0;1;2
+27) Hjælperelæ R9;96;0;5;0;0;2
+28) Anlæg stop (on/off);98;0;1;0;0;2
+29) Sluk bypass ved lav friskluft (°C);92;0;20;0;0;2

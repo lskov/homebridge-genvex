@@ -1,0 +1,178 @@
+[Graf initalisering varmepumpe]************
+70
+-30
+100
+0
+Zuluft T1
+Zuluft T1 (Achse 1)
+1000
+1
+1
+Raum T2
+Raumtemperatur T2 (Achse 1)
+1000
+1
+1
+Frischluft T3
+Frischluft T3 (Achse 1)
+1000
+1
+1
+Fortluft T4
+Fortluft T4 (Achse 1)
+1000
+1
+1
+- T5
+- T5 (Achse 1)
+1000
+1
+1
+- T6
+- T6 (Achse 1)
+1000
+1
+1
+Abluft T7
+Abluft T7 (Achse 1)
+1000
+1
+1
+Frostschutz T8
+Frostschutz T8 (Achse 1)
+1000
+1
+1
+- T9
+- T9 (Achse 1)
+1000
+1
+1
+Zuluftvent.%
+Zuluftventilator (Achse 2)
+100
+0
+2
+Abluftvent.%
+Abluftventilator (Achse 2)
+100
+0
+2
+Bypassventil%
+Bypassventil (Achse 2)
+100
+0
+2
+WW-ventil%
+Warmwasserventil (Achse 2)
+100
+0
+2
+-
+- (Achse 2)
+100
+0
+2
+-
+- (Achse 2)
+100
+0
+2
+Ausgänge
+Ausgänge
+
+
+
+
+Frostschutz
+-
+Hygrostat
+Reset Filterzeit
+-
+-
+-
+-
+Betrieb
+El-Hzg
+Zusatzkühlung
+-
+[Varmepumpe setpunkter]***************
+WÄRMETAUSCHER - Parameterliste
+1 Sprache 
+2 Raumtemperatur°C
+-
+-
+-
+-
+34 Bypass max
+-
+-
+-
+-
+-
+-
+3 Filterwechsel (d.M.)
+4 Sicherheitsstop
+-
+5 Forciert
+6 Anzahl Stunden (Std.)
+-
+7 Raum/Zul/Abl
+8 Stufe 1 Zuluft %
+9 Stufe 2 Zuluft %
+10 Stufe 3 Zuluft %
+11 Stufe 1 Abluft %
+12 Stufe 2 Abluft %
+13 Stufe 3 Abluft %
+14 Uhr Funktion an
+26 Vorwärme an
+27 Vorwärme °C
+28 Frostschutz an
+29 Frostschutztemp.°C
+30 T2 Abgleich
+32 WW-Hzg Regelzeit
+33 El-Hzg Regelzeit
+-
+-
+-
+-
+-
+35 R9 Funktion
+Nicht in betrieb - Parameterliste
+T5
+T6
+[User mode model fil *.inu]************************************
+DE_user.inu
+[NR1. Model Tjek. 255=OFF. NR2. EEPadresse. NR3. Advarsel besked]***************
+255
+1
+Warnung!
+[Initalisering til nye Grafer menu]************************************
+27
+Geschwindigkeit (Off, Stufe 1, 2, 3, 4);62;0;4;0;0;2
+Kalender ON (on/off);60;0;1;0;0;2
+01) Temperatur (°C);12;0;200;100;1;2
+02) Vorwärme (on/off);72;0;1;0;0;2
+03) Nachwärme (on/off);100;0;1;0;0;2
+04) Timer Stufe 3-4 (on/off);42;0;1;0;0;2
+05) Filterwechsel (d.M.);34;0;6;0;0;2
+10) Stufe 1 Zuluft (%);48;0;100;0;0;2
+11) Stufe 2 Zuluft (%);50;0;100;0;0;2
+12) Stufe 3 Zuluft (%);52;0;100;0;0;2
+13) Stufe 1 Abluft (%);54;0;100;0;0;2
+14) Stufe 2 Abluft (%);56;0;100;0;0;2
+15) Stufe 3 Abluft (%);58;0;100;0;0;2
+16) T2 Abgleichung (°C);80;0;50;-50;1;2
+17) Timer Stufe 3-4 (timer);40;1;9;0;0;2
+18) Filterwechsel Autostopp (on/off);36;0;1;0;0;2
+19) Reg.form (0=Raum,1=Zuluft, 2=Abluft);46;0;2;0;0;2
+20) Vorwärme Temperatur (°C);74;0;150;-150;1;2
+21) Bypass max (°C);20;20;100;0;1;2
+22) WW-Hzg. Regelzeit (sek);82;1;250;0;0;2
+23) El-Hzg. Regelzeit (min);84;1;30;0;0;2
+24) Frostreduktion (°C);24;0;100;0;1;2
+25) Frostschutz (on/off);76;0;1;0;0;2
+26) Frostschutz Sollwerte (°C);78;0;100;0;1;2
+27) Hilfrelais R9;96;0;5;0;0;2
+28) Anlage anhalten (on/off);98;0;1;0;0;2
+29) Bypass beim niedrigem Frischluft schliesen (°C);92;0;20;0;0;2

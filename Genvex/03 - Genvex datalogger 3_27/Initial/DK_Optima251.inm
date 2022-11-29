@@ -1,0 +1,194 @@
+[Graf initalisering varmepumpe]************
+70
+-30
+100
+0
+Indblæs T1
+Indblæsning T1 (Akse 1)
+1000
+1
+1
+Rum T2
+Rumtemperatur T2 (Akse 1)
+1000
+1
+1
+Friskluft T3
+Friskluft T3 (Akse 1)
+1000
+1
+1
+Afkast T4
+Afkast T4 (Akse 1)
+1000
+1
+1
+Forvarme
+Forvarme (Akse 2)
+100
+0
+2
+Eftervarme
+Eftervarme (Akse 2)
+100
+0
+2
+Udsugning T7
+Udsugning T7 (Akse 1)
+1000
+1
+1
+Vandfrost T8
+Vandfrost T8 (Akse 1)
+1000
+1
+1
+- T9
+- T9 (Akse 1)
+1000
+1
+1
+Indblæs
+Indblæs ventilator (Akse 2)
+100
+0
+2
+Udsug
+Udsug ventilator (Akse 2)
+100
+0
+2
+Bypass
+Bypass ventil (Akse 2)
+100
+0
+2
+Varmtvand
+Varmtvand ventil (Akse 2)
+100
+0
+2
+Fugt
+Fugt målt (Akse 2)
+100
+0
+2
+Fugt set
+Fugt ønsket (Akse 2)
+100
+0
+2
+Graf Dig
+Graf Digital
+Føler fejl
+Bypass ON/OFF
+Relay R9
+-
+Vandfrost fejl
+-
+Hygrostat
+Anlæg stop
+-
+-
+Bypass ON/OFF
+-
+Drift R8
+El-eftervarme R2 
+EL-forvarme R3
+-
+[Varmepumpe setpunkter]***************
+Varmeveksler - normale setpunkter i styringen
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+[User mode model fil *.inu]************************************
+DK_user.inu
+[NR1. Model Tjek. 255=OFF. NR2. EEPadresse. NR3. Advarsel besked]***************
+255
+1
+Advarsel!
+[Initalisering til nye Grafer menu]************************************
+43
+Hastighed valg (Off, Trin 1, 2, 3, 4);62;0;4;0;0;2
+Kalender ON (on/off);60;0;1;0;0;2
+01) Temperatur (øC);12;0;200;100;1;2
+02) Forvarme (on/off);72;0;1;0;0;2
+03) Eftervarme (on/off);100;0;1;0;0;2
+04) Timer trin 3-4 (on/off);42;0;1;0;0;2
+05) Filterskift (mdr);34;0;12;0;0;2
+06) Fugtstyring (on/off);582;0;1;0;0;2
+10) Trin 1 indblæs (%);48;0;100;0;0;2
+11) Trin 2 indblæs (%);50;0;100;0;0;2
+12) Trin 3 indbæls (%);52;0;100;0;0;2
+13) Trin 1 udsug (%);54;0;100;0;0;2
+14) Trin 2 udsug (%);56;0;100;0;0;2
+15) Trin 3 udsug (%);58;0;100;0;0;2
+16) T2 justering (øC);80;0;50;-50;1;2
+17) Timer trin 3-4 (timer);40;1;9;0;0;2
+18) Filterskift autostop (on/off);36;0;1;0;0;2
+19) Regform (0=Rum,1=indbl, 2=udsug);46;0;2;0;0;2
+20) Forvarme temperatur (øC);74;0;250;-150;1;2
+21) Bypass max (øC);20;10;100;0;1;2
+22) Regulator vand interval (sek);82;1;250;0;0;2
+23) Regulator el interval (min);84;1;30;0;0;2
+24) Frostreduktion (øC);24;0;100;0;1;2
+25) Vandfrost (on/off);76;0;1;0;0;2
+26) Vandfrost setpunkt (øC);78;0;100;0;1;2
+27) Hjælperelæ R9;96;0;5;0;0;2
+28) Anlæg stop (on/off);98;0;1;0;0;2
+29) Sluk bypass ved lav friskluft (øC);92;0;20;0;0;2
+30) Modbus mode (0=OFF, 1=9600, 2=19200);558;0;2;0;0;2
+31) Modbus adresse;560;1;247;0;0;2
+32) Fugt max temp (øC);584;5;25;0;0;2
+33) Fugt max værdi (%);586;35;85;0;0;2
+34) Fugt vent hast (%);588;5;30;0;0;2
+35) fugt regulerings hyppighed (min);590;1;60;0;0;2
+36) Højre/Venstre;592;0;1;0;0;2
+37) Forvarme PI P;594;1;255;0;0;2
+38) Forvarme PI I;596;1;255;0;0;2
+39) Forvarme Reg (sek);598;10;120;0;0;2
+40) Eftervarme (øC);600;0;200;-100;1;2
+41) Eftervarme PI P;602;1;255;0;0;2
+42) Eftervarme PI I;604;1;255;0;0;2
+43) Eftervarm Reg (sek);606;10;120;0;0;2
+44) Behovstyring (%);614;0;100;0;0;2

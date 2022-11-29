@@ -1,0 +1,192 @@
+[Graf initalisering varmepumpe]************
+70
+-30
+100
+0
+Supply T1
+Supply T1 (Axis 1)
+1000
+1
+1
+Room T2
+Roomtemperature T2 (Axis 1)
+1000
+1
+1
+Fresh air T3
+Fresh air T3 (Axis 1)
+1000
+1
+1
+Exhaust T4
+Exhaust T4 (Axis 1)
+1000
+1
+1
+- T5
+- T5 (Axis 1)
+1000
+1
+1
+- T6
+- T6 (Axis 1)
+1000
+1
+1
+Extract T7
+Extract T7 (Axis 1)
+1000
+1
+1
+Antifreeze T8
+Antifreeze T8 (Axis 1)
+1000
+1
+1
+- T9
+- T9 (Axis 1)
+1000
+1
+1
+Supply
+Supply fan (Axis 2)
+100
+0
+2
+Extract
+Extract fan (Axis 2)
+100
+0
+2
+Bypass
+Bypass valve (Axis 2)
+100
+0
+2
+Dom.water
+Dom.water valve (Axis 2)
+100
+0
+2
+Moisture
+Moisture (Axis 2)
+100
+0
+2
+-
+- (Axis 2)
+100
+0
+2
+Graf Dig
+Graf Digital
+
+
+
+
+Antifreeze
+-
+Hygrostat
+Reset Filter
+-
+-
+-
+-
+Operation
+El-heater
+Exstra cool
+-
+[Varmepumpe setpunkter]***************
+RECUPERATOR - settings
+1 Language
+2 Roomtemperature
+-
+-
+-
+-
+34 Bypass Max
+-
+-
+-
+-
+-
+-
+3 Filterchange (Mth)
+4 Stop ON-OFF
+-
+5 Forced ON
+6 Hours
+-
+7 Room/sup/ext
+8 Step 1 supply
+9 Step 2 supply
+10 Step 3 supply
+11 Step 1 extract
+12 Step 2 extract
+13 Step 3 extract
+14 Timer function ON
+26 Preheat ON
+27 Preheat temp
+28 Antifreeze ON
+29 Antifreeze set
+30 T2 adjust
+32 Water reg sec
+33 Heat reg min
+-
+-
+-
+-
+-
+35 R9 function
+Not used - settings
+T5
+T6
+[User mode model fil *.inu]************************************
+UK_user.inu
+[NR1. Model Tjek. 255=OFF. NR2. EEPadresse. NR3. Advarsel besked]***************
+255
+1
+Warning!
+[Initalisering til nye Grafer menu]************************************
+42
+Choose speed level(Off, Trin 1, 2, 3, 4);62;0;4;0;0;2
+Calendar ON (on/off);60;0;1;0;0;2
+01) Temperature (C);12;0;200;100;1;2
+02) Preheat (on/off);72;0;1;0;0;2
+03) Afterheat (on/off);100;0;1;0;0;2
+04) Timer step 3-4 (on/off);42;0;1;0;0;2
+05) Filterchange (Mth);34;0;6;0;0;2
+10) Step 1 supply (%);48;0;100;0;0;2
+11) Step 2 supply (%);50;0;100;0;0;2
+12) Step 3 supply (%);52;0;100;0;0;2
+13) Step 1 extract (%);54;0;100;0;0;2
+14) Step 2 extract (%);56;0;100;0;0;2
+15) Step 3 extract (%);58;0;100;0;0;2
+16) T2 adjust (C);80;0;50;-50;1;2
+17) Timer step 3-4 (timer);40;1;9;0;0;2
+18) Filterchange autostop (on/off);36;0;1;0;0;2
+19) Reg.form (0=Room,1=supply, 2=extract);46;0;2;0;0;2
+20) Preheat temperature (°C);74;0;150;-150;1;2
+21) Bypass max (C);20;20;100;0;1;2
+22) Water reg. (sek);82;1;250;0;0;2
+23) Heat reg. (min);84;1;30;0;0;2
+24) Antifreeze (C);24;0;100;0;1;2
+25) Antifreeze (on/off);76;0;1;0;0;2
+26) Antifreeze settings (°C);78;0;100;0;1;2
+27) Helprelay R9;96;0;5;0;0;2
+28) Stop unit  (on/off);98;0;1;0;0;2
+29) Turn off bypass at low fresh air (C);92;0;20;0;0;2
+30) Modbus mode (0=OFF, 1=9600, 2=19200);558;0;2;0;0;2
+31) Modbus adress;560;1;247;0;0;2
+32) Moisture max temp (C);584;5;25;0;0;2
+33) Moisture max value (%);586;35;85;0;0;2
+34) Moisture vent speed +/- (%);588;5;30;0;0;2
+35) Moisture control frequency (min);590;1;60;0;0;2
+36) Right/Left (0=right/1=left);592;0;1;0;0;2
+37) Preheat PI P;594;1;255;0;0;2
+38) Preheat PI I;596;1;255;0;0;2
+39) Preheat Reg (sek);598;10;120;0;0;2
+40) Reheat (C);600;0;200;-100;1;2
+41) Reheat PI P;602;1;255;0;0;2
+42) Reheat PI I;604;1;255;0;0;2
+43) Reheat Reg (sek);606;10;120;0;0;2

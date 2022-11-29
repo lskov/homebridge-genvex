@@ -1,0 +1,178 @@
+[Initialisation graph. pompe à chaleur]************
+70
+-30
+100
+0
+T1 Admiss. 
+T1 Admission (Axe 1)
+1000
+1
+1
+T2 Temp. amb. 
+T2 Température ambiante 
+1000
+1
+1
+T3 Arr. air
+T3 Arrivée d’air (Axe 1)
+1000
+1
+1
+T4 Evac. 
+T4 Evacuation (Axe 1)
+1000
+1
+1
+- T5
+- T5 (Axe 1)
+1000
+1
+1
+- T6
+- T6 (Axe 1)
+1000
+1
+1
+T7 Aspiration 
+T7 Aspiration (Axe 1)
+1000
+1
+1
+T8 Gel 
+T8 Gel (Axe 1)
+1000
+1
+1
+- T9
+- T9 (Axe 1)
+1000
+1
+1
+Admiss.
+Ventilateur d’admission (Axe 2)
+100
+0
+2
+Aspi.
+Ventilateur à aspiration (Axe 2)
+100
+0
+2
+By-pass
+Vanne by-pass (Axe 2)
+100
+0
+2
+Eau chaude
+Vanne d’eau chaude (Axe 2)
+100
+0
+2
+-
+- (Axe 2)
+100
+0
+2
+-
+- (Axe 2)
+100
+0
+2
+Graph. dig.
+Graph. digital
+
+
+
+
+Gel
+-
+Hygrostat
+Réinitialisation du filtre
+-
+-
+-
+-
+Fonctionnement
+Post-chauffage électrique 
+Refroidissement supplémentaire
+-
+[Points de consigne de la pompe à chaleur]***************
+Echangeur de chaleur – points de consigne normaux de la commande
+1 Choix de la langue
+2 Temp. ambiante
+-
+-
+-
+-
+34 By-pass max
+-
+-
+-
+-
+-
+-
+3 Rempl. filtre (mois)
+4 Arrêt ON-OFF
+-
+5 Forcé ON
+6 Nombre d’heures
+-
+7 Pièce/int/ext
+8 Vitesse 1 admiss.
+9 Vitesse 2 admiss.
+10 Vitesse 3 admiss.
+11 Vitesse 1 aspi.
+12 Vitesse 2 aspi.
+13 Vitesse 3 aspi.
+14 Fonction HEURE ON
+26 Préchauffage ON
+27 Temp. préchauffage 
+28 Gel ON
+29 Consigne gel
+30 Réglage T2
+32 Rég. eau sec.
+33 Rég. chaleur min
+-
+-
+-
+-
+-
+35 Fonction R9
+Pas en fonction
+T5
+T6
+[User mode model fil *.inu]************************************
+DK_user.inu
+[NR1. Vérif. modèle  255=OFF. NR2. EEPadresse. NR3. Message d’avertissement]***************
+255
+1
+Avertissement!
+[Initialisation du menu nouveaux graph.]************************************
+27
+Choix de la vitesse (Off, vitesse 1, 2, 3, 4);62;0;4;0;0;2
+Calendrier ON (on/off);60;0;1;0;0;2
+01) Température (°C);12;0;200;100;1;2
+02) Préchauffage (on/off);72;0;1;0;0;2
+03) Post-chauffage (on/off);100;0;1;0;0;2
+04) Minuterie vitesse 3-4 (on/off);42;0;1;0;0;2
+05) Rempl. filtre (mois);34;0;6;0;0;2
+10) Vitesse 1 admiss. (%);48;0;100;0;0;2
+11) Vitesse 2 admiss. (%);50;0;100;0;0;2
+12) Vitesse 3 admiss. (%);52;0;100;0;0;2
+13) Vitesse 1 aspi. (%);54;0;100;0;0;2
+14) Vitesse 2 aspi. (%);56;0;100;0;0;2
+15) Vitesse 3 aspi. (%);58;0;100;0;0;2
+16) Réglage T2 (°C);80;0;50;-50;1;2
+17) Minuterie vitesse 3-4 (heures);40;1;9;0;0;2
+18) Stop automat.rempl. filtre (on/off);36;0;1;0;0;2
+19) Regul.form (0=temp.amb,1=adm,2=asp);46;0;2;0;0;2
+20) Température de préchauffage (°C);74;0;150;-150;1;2
+21) By-pass max (°C);20;20;100;0;1;2
+22) Intervalle régulateur eau (sec);82;1;250;0;0;2
+23) Intervalle régulateur électrique (min);84;1;30;0;0;2
+24) Réduction gel (°C);24;0;100;0;1;2
+25) Gel (on/off);76;0;1;0;0;2
+26) Point de consigne gel (°C);78;0;100;0;1;2
+27) Relais aide R9;96;0;5;0;0;2
+28) Arrêt de l’unité (on/off);98;0;1;0;0;2
+29) Fermeture bypass si air frais faible(°C);92;0;20;0;0;2

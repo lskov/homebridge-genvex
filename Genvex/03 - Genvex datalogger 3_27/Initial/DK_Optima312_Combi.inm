@@ -1,0 +1,242 @@
+[Graf initalisering, kort navn, popup navn, X faktor, decimal, akse nr]**********************
+70
+-30
+100
+0
+Indblæs T1
+Indblæs T1 (Akse 1)
+1000
+1
+1
+Rum T2
+Rumtemperatur T2 (Akse 1)
+1000
+1
+1
+Friskluft T3
+Friskluft T3 (Akse 1)
+1000
+1
+1
+Afkast T4
+Afkast T4 (Akse 1)
+1000
+1
+1
+Før køleflade T5
+Før køleflade T5 (Akse 1)
+1000
+1
+1
+Køleflade T6
+Køleflade T6 (Akse 1)
+1000
+1
+1
+Tank top T7
+Tank top T7 (Akse 1)
+1000
+1
+1
+Tank bund T8
+Tank bund T8 (Akse 1)
+1000
+1
+1
+Solfanger T9
+Solfanger T9 (Akse 1)
+1000
+1
+1
+Indblæs
+Indblæs ventilator (Akse 2)
+100
+0
+2
+Udsug
+Udsug ventilator (Akse 2)
+100
+0
+2
+Bypass
+Bypass ventil (Akse 2)
+100
+0
+2
+Varmtvand
+Varmtvand ventil (Akse 2)
+100
+0
+2
+-
+- (Akse 2)
+100
+0
+2
+-
+- (Akse 2)
+100
+0
+2
+Graf Dig
+Graf Digital
+-
+-
+-
+-
+-
+Pressostat
+Hygrostat
+Reset Filter
+Afrimning
+Brugsvand
+Rumvarme
+-
+R8-sol/pump/drift
+Elvarme vand
+Indblæs ekstra varme
+Kompressor
+[Gamle Setpunkter]*******************************
+COMBI - normale setpunkter i styringen
+1 Sprog valg
+2 Rumtemperatur
+-
+-
+5 Drifts termostat
+6 El-patron ON
+7 El-patron set
+8 R8-Sol/Pump/Drift
+9 Konstant ON
+10 Konstant
+11 Reduktion ON
+12 Reducere indbl
+13 Indblæs hast
+14 Filterskift (Mdr)
+15 Stop ON-OFF
+16 Min. luftmængde
+17 Forceret ON
+18 Antal timer
+19 Eftervarme
+20 Solfang. hyst
+21 Trin 1 indblæs
+22 Trin 2 indblæs
+23 Trin 3 indblæs
+24 Trin 1 udsugn
+25 Trin 2 udsugn
+26 Trin 3 udsugn
+27 Timer funktion ON
+39 Luft prioritet ON
+-
+41 Desinfektion ON
+-
+43 T2 justering
+45 Vand reg sek
+46 Varme reg min
+-
+-
+49 Max vent vand
+50 Stop afrimning
+51 Komp. temp dif
+52 R9 funktion
+Afrimnings setpunkter i styringen
+T5 før køleflade
+T6 i køleflade
+[User mode model fil *.inu]************************************
+DK_user.inu
+[NR1: Model Tjek. 255=OFF.    NR2: EEPadresse.    NR3: Advarsel besked]***************
+255
+1
+Advarsel!
+[Initalisering til nye Grafer menu]************************************
+91
+Hastighed valg (Off, Trin 1, 2, 3, 4);62;0;4;0;0;2
+Kalender ON (on/off);60;0;1;0;0;2
+01) Temperatur (øC);12;0;200;100;1;2
+02) Brugsvandtemperatur (øC);18;0;550;0;1;2
+03) EL-patron ON (on/off);22;0;1;0;0;2
+04) Timer trin 3-4 (on/off);42;0;1;0;0;2
+05) Filterskift (mdr);34;0;12;0;0;2
+10) Trin 1 indblæs (%);48;0;100;0;0;2
+11) Trin 2 indblæs (%);50;0;100;0;0;2
+12) Trin 3 indbæls (%);52;0;100;0;0;2
+13) Trin 1 udsug (%);54;0;100;0;0;2
+14) Trin 2 udsug (%);56;0;100;0;0;2
+15) Trin 3 udsug (%);58;0;100;0;0;2
+16) T2 justering (øC);80;0;50;-50;1;2
+17) Timer trin 3-4 (timer);40;1;9;0;0;2
+18) Filterskift autostop (on/off);36;0;1;0;0;2
+19) EL-patron (øC);20;0;650;0;1;2
+20) Desinfektion (on/off);76;0;1;0;0;2
+21) Brugsvand/luft (on/off);72;0;1;0;0;2
+22) Regulator vand interval (sek);82;1;250;0;0;2
+23) Regulator el interval (min);84;1;30;0;0;2
+24) Min luftm‘ngde udsug (%);38;0;100;0;0;2
+25) Eftervarme (on/off);44;0;2;0;0;2
+26) Solfanger hyst (øC);46;0;50;0;1;2
+27) Hjælperelæ R9;96;0;5;0;0;2
+28) Anlæg stop (on/off);98;0;1;0;0;2
+29) Stop afrimning (øC);92;0;150;0;1;2
+30) Kompressor differens (øC);94;1;10;0;1;2
+31) Konstant (on/off);26;0;1;0;0;2
+32) Konstant (øC);24;0;100;0;1;2
+33) Reduktion (on/off);32;0;1;0;0;2
+34) Reducere indbl‘sning (øC);28;0;150;-150;1;2
+35) Reducere indbl‘s hastighed (%);30;0;100;0;0;2
+36) Hjælperelæ R8;70;0;3;0;0;2
+37) Jord Kollektor temperatur (øC);78;0;100;0;1;2
+38) Ikke i brug;86;0;1;0;0;2
+39) Min Luftmængde indbl‘s (%);562;0;100;0;0;2
+40) Min Luftmængde mode;564;0;3;0;0;2
+41) Modbus mode (0=OFF, 1=9600, 2=19200);558;0;2;0;0;2
+42) Modbus adresse;560;1;247;0;0;2
+43) Forvarme setpunkt (øC);74;0;250;-150;1;2
+44) Forvarme PI P;594;1;255;0;0;2
+45) Forvarme PI I;596;1;255;0;0;2
+46) Forvarme Reg (sek);598;10;120;0;0;2
+47) Eftervarme (øC);600;0;200;-100;1;2
+48) Eftervarme PI P;602;1;255;0;0;2
+49) Eftervarme PI I;604;1;255;0;0;2
+50) Eftervarm Reg (sek);606;10;120;0;0;2
+51) Bypass max (øC);608;10;100;0;1;2
+52) Sluk bypass ved lav friskluft (øC);610;0;20;0;0;2
+53) Regform (1=T2 Styring, 2=T2 Display);612;1;2;0;0;2
+A01) Defrost T5 Before Coil;150;0;100;-30;0;1
+A02) Defrost T5 Before Coil;151;0;100;-30;0;1
+A03) Defrost T5 Before Coil;152;0;100;-30;0;1
+A04) Defrost T5 Before Coil;153;0;100;-30;0;1
+A05) Defrost T5 Before Coil;154;0;100;-30;0;1
+A06) Defrost T5 Before Coil;155;0;100;-30;0;1
+A07) Defrost T5 Before Coil;156;0;100;-30;0;1
+A08) Defrost T5 Before Coil;157;0;100;-30;0;1
+A09) Defrost T5 Before Coil;158;0;100;-30;0;1
+A10) Defrost T5 Before Coil;159;0;100;-30;0;1
+A11) Defrost T5 Before Coil;160;0;100;-30;0;1
+A12) Defrost T5 Before Coil;161;0;100;-30;0;1
+A13) Defrost T5 Before Coil;162;0;100;-30;0;1
+A14) Defrost T5 Before Coil;163;0;100;-30;0;1
+A15) Defrost T5 Before Coil;164;0;100;-30;0;1
+A16) Defrost T5 Before Coil;165;0;100;-30;0;1
+A17) Defrost T5 Before Coil;166;0;100;-30;0;1
+A18) Defrost T5 Before Coil;167;0;100;-30;0;1
+A19) Defrost T5 Before Coil;168;0;100;-30;0;1
+A20) Defrost T5 Before Coil;169;0;100;-30;0;1
+B01) Defrost T6 In Coil;170;0;100;-30;0;1
+B02) Defrost T6 In Coil;171;0;100;-30;0;1
+B03) Defrost T6 In Coil;172;0;100;-30;0;1
+B04) Defrost T6 In Coil;173;0;100;-30;0;1
+B05) Defrost T6 In Coil;174;0;100;-30;0;1
+B06) Defrost T6 In Coil;175;0;100;-30;0;1
+B07) Defrost T6 In Coil;176;0;100;-30;0;1
+B08) Defrost T6 In Coil;177;0;100;-30;0;1
+B09) Defrost T6 In Coil;178;0;100;-30;0;1
+B10) Defrost T6 In Coil;179;0;100;-30;0;1
+B11) Defrost T6 In Coil;180;0;100;-30;0;1
+B12) Defrost T6 In Coil;181;0;100;-30;0;1
+B13) Defrost T6 In Coil;182;0;100;-30;0;1
+B14) Defrost T6 In Coil;183;0;100;-30;0;1
+B15) Defrost T6 In Coil;184;0;100;-30;0;1
+B16) Defrost T6 In Coil;185;0;100;-30;0;1
+B17) Defrost T6 In Coil;186;0;100;-30;0;1
+B18) Defrost T6 In Coil;187;0;100;-30;0;1
+B19) Defrost T6 In Coil;188;0;100;-30;0;1
+B20) Defrost T6 In Coil;189;0;100;-30;0;1
